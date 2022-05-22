@@ -7,6 +7,5 @@
  * 
  * For each project one time
  * 1. heroku create
- * 2. 
  * 
  */

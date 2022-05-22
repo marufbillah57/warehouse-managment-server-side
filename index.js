@@ -63,6 +63,10 @@ app.get('/', (req, res) => {
     res.send('Running server');
 });
 
+app.get('/hero', (req, res) => {
+    res.send('Hero meets hero ku');
+})
+
 app.listen(port, () => {
     console.log('Listening to port 5000');
 });
